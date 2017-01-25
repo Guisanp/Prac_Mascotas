@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombreMascota">Carmen</string>
+    <string name="numFav">0</string>
+    <string name="title_activity_main2">Main</string>
+
+</resources>

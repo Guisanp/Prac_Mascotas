@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/cvmascotas"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
+    //card_view:cardCorneRadius="40dp"
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gato1"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde">
+
+        <ImageView
+            android:id="@+id/fotohueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog_bone_48"/>
+        <TextView
+            android:id="@+id/nombreMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreMascota"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/fotohueso"
+            android:textStyle="bold"
+            android:layout_marginLeft="5sp"
+                   />
+
+        <ImageView
+            android:id="@+id/huesoDorado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog_bone_48gold"
+            android:layout_alignParentRight="true"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+
+            />
+        <TextView
+            android:id="@+id/numFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numFav"
+            android:textSize="20sp"
+            android:layout_toLeftOf="@id/huesoDorado"
+            android:layout_marginRight="15dp"
+                />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>
